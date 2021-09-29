@@ -1,5 +1,6 @@
 /*
-    
+    Developed by Santillan Zaragoza Erick I.
+    Computer Graphics 3CV14
 */
 #include <stdio.h>
 
