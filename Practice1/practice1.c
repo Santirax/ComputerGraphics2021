@@ -58,26 +58,6 @@ int main()
     
     printf("\nX  Y\n");
     naiveAlgorithm(x1,y1,x2,y2);
-    
-    /*
-    int x = y2-y1; 
-    int y = x2-x1;
-    int b = -y2*x1 + x1*y1 + y1*x2 -x1*y1;
-    
-    int minX = min(x1, x2);
-    int maxX = max(x1, x2);
-    
-    int minY = min(y1, y2);
-    int maxY = max(y1, y2);
-    
-    int i, j;
-    printf("La ecuacion es: %dx + %dy + %d = 0\n\n",x, y, b);
-    for(i = minX; i <= maxX; i++){
-        for(j = minY; j <= maxY; j++){
-            int res = i*x + j*y + b;
-            printf("Con x = %d, y = %d -> %d\n", i, j, res);
-        }
-    }
-    */
+
     return 0;
 }
