@@ -15,7 +15,7 @@ void finalMatrix(float *x, float *y, float *z, float *w){
     float sy = 0.997;
     float sz = 0.997;
     float tx = 1;
-    float ty = 25;
+    float ty = 5;
     float tz = 1;
     float angle = (2*PI)/400; //2PI = 360, PI = 180, PI/2 = 90
 
